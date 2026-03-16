@@ -7,7 +7,7 @@ const Hero = ({innerRef}) => {
 
 
   return (
-    <div className="min-h-screen bg-main text-main" id="Herod" ref={innerRef}>
+    <div className="min-h-screen text-main" id="Herod" ref={innerRef}>
       <section className="pt-32 pb-24 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div ref={textRef} className={textIn ? 'slide-in-left' : 'opacity-0'}>
